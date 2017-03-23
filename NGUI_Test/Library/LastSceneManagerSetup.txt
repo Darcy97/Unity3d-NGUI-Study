@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/024_rigister.unity
+- path: Assets/Scenes/024_rigister.unity
   isLoaded: 1
   isActive: 1
