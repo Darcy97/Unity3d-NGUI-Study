@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGUI_Test", "NGUI_Test.csproj", "{C3C227E0-16F8-D7CB-8227-B9D9DBA260EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGUI_Test.Editor", "NGUI_Test.Editor.csproj", "{B95DE45A-9B5F-F49E-FD1D-CFC5AC5253DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3C227E0-16F8-D7CB-8227-B9D9DBA260EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C227E0-16F8-D7CB-8227-B9D9DBA260EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C227E0-16F8-D7CB-8227-B9D9DBA260EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C227E0-16F8-D7CB-8227-B9D9DBA260EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95DE45A-9B5F-F49E-FD1D-CFC5AC5253DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95DE45A-9B5F-F49E-FD1D-CFC5AC5253DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95DE45A-9B5F-F49E-FD1D-CFC5AC5253DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95DE45A-9B5F-F49E-FD1D-CFC5AC5253DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
