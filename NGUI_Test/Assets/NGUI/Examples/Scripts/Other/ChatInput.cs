@@ -10,6 +10,13 @@ public class ChatInput : MonoBehaviour
 {
 	public UITextList textList;
 	public bool fillWithDummyData = false;
+    private string[] nameArr = new string[4]
+    {
+        "Darcy",
+        "System",
+        "John",
+        "Amy"
+    };
 
 	UIInput mInput;
 
@@ -22,14 +29,14 @@ public class ChatInput : MonoBehaviour
 		mInput = GetComponent<UIInput>();
 		mInput.label.maxLineCount = 1;
 
-		if (fillWithDummyData && textList != null)
-		{
-			for (int i = 0; i < 30; ++i)
-			{
-				textList.Add(((i % 2 == 0) ? "[FFFFFF]" : "[AAAAAA]") +
-					"This is an example paragraph for the text list, testing line " + i + "[-]");
-			}
-		}
+		//if (fillWithDummyData && textList != null)
+		//{
+		//	for (int i = 0; i < 30; ++i)
+		//	{
+		//		textList.Add(((i % 2 == 0) ? "[FFFFFF]" : "[AAAAAA]") +
+		//			"This is an example paragraph for the text list, testing line " + i + "[-]");
+		//	}
+		//}
 	}
 
 	/// <summary>
@@ -38,16 +45,18 @@ public class ChatInput : MonoBehaviour
 
 	public void OnSubmit ()
 	{
+
 		if (textList != null)
 		{
-			// It's a good idea to strip out all symbols as we don't want user input to alter colors, add new lines, etc
-			string text = NGUIText.StripSymbols(mInput.value);
+            // It's a good idea to strip out all symbols as we don't want user input to alter colors, add new lines, etc
+            int index = Random.Range(0, 3);
+            string text = nameArr[index] + ": " + NGUIText.StripSymbols(mInput.value);
 
 			if (!string.IsNullOrEmpty(text))
 			{
 				textList.Add(text);
 				mInput.value = "";
-				mInput.isSelected = false;
+				//mInput.isSelected = false;
 			}
 		}
 	}
