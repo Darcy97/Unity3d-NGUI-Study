@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/029_chatsystem.unity
+- path: Assets/Scenes/034_knapsack.unity
   isLoaded: 1
   isActive: 1

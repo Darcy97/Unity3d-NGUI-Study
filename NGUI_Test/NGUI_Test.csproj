@@ -215,6 +215,9 @@
     <Compile Include="Assets\Scripts\AgeLimit.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GameSettings.cs" />
+    <Compile Include="Assets\Scripts\KnapsackItem.cs" />
+    <Compile Include="Assets\Scripts\MyDragDropItem.cs" />
+    <Compile Include="Assets\Scripts\MyKnapsack.cs" />
     <Compile Include="Assets\Scripts\NGUIButtonClick.cs" />
     <Compile Include="Assets\Scripts\TestTextWindow.cs" />
     <Compile Include="Assets\Scripts\Testsound.cs" />
