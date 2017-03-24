@@ -216,8 +216,10 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GameSettings.cs" />
     <Compile Include="Assets\Scripts\NGUIButtonClick.cs" />
+    <Compile Include="Assets\Scripts\TestTextWindow.cs" />
+    <Compile Include="Assets\Scripts\Testsound.cs" />
     <Compile Include="Assets\Scripts\skill.cs" />
-    <Compile Include="Assets\Scripts\testsound.cs" />
+    <Compile Include="Assets\test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
