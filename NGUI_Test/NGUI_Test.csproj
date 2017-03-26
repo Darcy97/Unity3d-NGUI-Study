@@ -221,6 +221,7 @@
     <Compile Include="Assets\Scripts\NGUIButtonClick.cs" />
     <Compile Include="Assets\Scripts\TestTextWindow.cs" />
     <Compile Include="Assets\Scripts\Testsound.cs" />
+    <Compile Include="Assets\Scripts\ViewController.cs" />
     <Compile Include="Assets\Scripts\skill.cs" />
   </ItemGroup>
   <ItemGroup>
