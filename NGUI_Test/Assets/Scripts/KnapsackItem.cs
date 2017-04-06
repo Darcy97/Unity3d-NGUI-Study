@@ -4,8 +4,21 @@ using UnityEngine;
 
 public class KnapsackItem : UIDragDropItem {
 
+    public UISprite sprite;
+    public UILabel label;
+
+    private int count = 1;
+
+    public void AddCount(int number)
+    {
+        count += number;
+        label.text = count.ToString();
+    }
+
     protected override void OnDragDropRelease(GameObject surface)
     {
+        
+
         base.OnDragDropRelease(surface);
         //print(surface);
 
