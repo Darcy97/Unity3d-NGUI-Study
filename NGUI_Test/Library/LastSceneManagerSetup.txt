@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/037_lifebar.unity
+- path: Assets/Scenes/039_hudtext.unity
   isLoaded: 1
   isActive: 1

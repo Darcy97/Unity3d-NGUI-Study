@@ -78,6 +78,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HUD Text\Examples\Scripts\ChatManager.cs" />
+    <Compile Include="Assets\HUD Text\Examples\Scripts\ChatParticipant.cs" />
+    <Compile Include="Assets\HUD Text\Examples\Scripts\ColliderDisplayText.cs" />
+    <Compile Include="Assets\HUD Text\Examples\Scripts\HUDRoot.cs" />
+    <Compile Include="Assets\HUD Text\Examples\Scripts\LightFlicker.cs" />
+    <Compile Include="Assets\HUD Text\Examples\Scripts\Rotate.cs" />
+    <Compile Include="Assets\HUD Text\Scripts\HUDText.cs" />
+    <Compile Include="Assets\HUD Text\Scripts\UIFollowTarget.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -219,12 +227,16 @@
     <Compile Include="Assets\Scripts\MyDragDropItem.cs" />
     <Compile Include="Assets\Scripts\MyKnapsack.cs" />
     <Compile Include="Assets\Scripts\NGUIButtonClick.cs" />
+    <Compile Include="Assets\Scripts\TestHudText.cs" />
     <Compile Include="Assets\Scripts\TestTextWindow.cs" />
     <Compile Include="Assets\Scripts\Testsound.cs" />
     <Compile Include="Assets\Scripts\ViewController.cs" />
     <Compile Include="Assets\Scripts\skill.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\HUD Text\Examples\Atlases\Arimo20.txt" />
+    <None Include="Assets\HUD Text\Examples\Atlases\Large.txt" />
+    <None Include="Assets\HUD Text\ReadMe - 1.11.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
